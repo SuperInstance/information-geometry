@@ -1,0 +1,13 @@
+[package]
+name = "information-geometry"
+version = "0.1.0"
+edition = "2021"
+description = "Information geometry in Rust — Fisher information metric, statistical manifolds, natural gradient, exponential families, dual connections"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/information-geometry"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
